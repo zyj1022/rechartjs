@@ -14,15 +14,15 @@ export const lineData = {
   datasets: [
     {
       label: 'My First dataset',
-      borderColor: ColorAlpha(Colors[0], 0.2),
-      backgroundColor: ColorAlpha(Colors[0], 0.2),
+      borderColor: ColorAlpha(Colors[0], 0.8),
+      backgroundColor: ColorAlpha(Colors[0], 0.8),
       fill: false,
       data: Rdom(7, 100, 2000),
       yAxisID: 'y-axis-1'
     }, {
       label: 'My Second dataset',
-      borderColor: ColorAlpha(Colors[2], 0.2),
-      backgroundColor: ColorAlpha(Colors[2], 0.2),
+      borderColor: ColorAlpha(Colors[2], 0.8),
+      backgroundColor: ColorAlpha(Colors[2], 0.8),
       fill: false,
       data: Rdom(7, 100, 2000),
       yAxisID: 'y-axis-2'

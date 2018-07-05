@@ -33,10 +33,16 @@ export const Rdom = (num, start, end) => {
     return _.random(start, _.random(start, end))
   })
 }
-
-const Color = global.Color;
-
+// HEX TO RGBA
 export const ColorAlpha = (color, opacity) => {
-  var alpha = opacity === undefined ? 0.5 : 1 - opacity;
-  return Color(color).alpha(alpha).rgbString();
+  var c;
+    if(/^#([A-Fa-f0-9]{3}){1,2}$/.test(color)){
+        c= color.substring(1).split('');
+        if(c.length== 3){
+            c= [c[0], c[0], c[1], c[1], c[2], c[2]];
+        }
+        c= '0x'+c.join('');
+        return 'rgba('+[(c>>16)&255, (c>>8)&255, c&255].join(',')+', ' + opacity +')';
+    }
+    throw new Error('Bad Hex');
 }

@@ -6,8 +6,8 @@ export const bubbleData = {
   datasets: [
     {
       label: ["January"],
-      backgroundColor: ColorAlpha(Colors[5], 0.5),
-      borderColor: ColorAlpha(Colors[5], 0.0),
+      backgroundColor: ColorAlpha(Colors[5], 0.6),
+      borderColor: ColorAlpha(Colors[5], 0.6),
       data: [
         {
           x: _.random(10000, 1000000),
@@ -27,8 +27,8 @@ export const bubbleData = {
       ]
     }, {
       label: ["February"],
-      backgroundColor:ColorAlpha(Colors[2], 0.5),
-      borderColor: ColorAlpha(Colors[2], 0.5),
+      backgroundColor:ColorAlpha(Colors[2], 0.6),
+      borderColor: ColorAlpha(Colors[2], 0.6),
       data: [
         {
           x: _.random(10000, 1000000),
@@ -47,8 +47,8 @@ export const bubbleData = {
       ]
     }, {
       label: ["March"],
-      backgroundColor: ColorAlpha(Colors[4], 0.5),
-      borderColor: ColorAlpha(Colors[4], 0.5),
+      backgroundColor: ColorAlpha(Colors[4], 0.6),
+      borderColor: ColorAlpha(Colors[4], 0.6),
       data: [
         {
           x: _.random(10000, 1000000),
@@ -68,8 +68,8 @@ export const bubbleData = {
       ]
     }, {
       label: ["April"],
-      backgroundColor: ColorAlpha(Colors[7], 0.5),
-      borderColor: ColorAlpha(Colors[7], 0.5),
+      backgroundColor: ColorAlpha(Colors[7], 0.6),
+      borderColor: ColorAlpha(Colors[7], 0.6),
       data: [
         {
           x: _.random(10000, 1000000),
@@ -85,7 +85,7 @@ export const bubbleData = {
           x: _.random(10000, 1000000),
           y: _.random(1, 100),
           r: 15
-        }        
+        }
       ]
     }
   ]

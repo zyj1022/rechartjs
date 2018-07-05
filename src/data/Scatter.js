@@ -7,7 +7,7 @@ export const scatterData = {
     {
       label: 'January',
       backgroundColor: ColorAlpha(Colors[5], 0.5),
-      borderColor: ColorAlpha(Colors[5], 0.2),
+      borderColor: ColorAlpha(Colors[5], 0.6),
       data: _.times(_.random(5, 20), i => {
           return {
             x: _.random(-100, 100),
@@ -17,7 +17,7 @@ export const scatterData = {
     }, {
       label: 'February',
       backgroundColor: ColorAlpha(Colors[2], 0.5),
-      borderColor: ColorAlpha(Colors[2], 0.2),
+      borderColor: ColorAlpha(Colors[2], 0.6),
       data: _.times(_.random(5, 20), i => {
           return {
             x: _.random(-100, 100),
@@ -27,7 +27,7 @@ export const scatterData = {
     }, {
       label: 'April',
       backgroundColor: ColorAlpha(Colors[0], 0.5),
-      borderColor: ColorAlpha(Colors[0], 0.2),
+      borderColor: ColorAlpha(Colors[0], 0.6),
       data: _.times(_.random(5, 20), i => {
           return {
             x: _.random(-100, 100),

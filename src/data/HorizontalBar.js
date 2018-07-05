@@ -11,16 +11,16 @@ export const horizontalData = {
   datasets: [
     {
       label: 'Dataset1',
-      backgroundColor: ColorAlpha(Colors[2], 0.7),
-      borderColor: ColorAlpha(Colors[2], 0.3),
+      backgroundColor: ColorAlpha(Colors[2], 0.3),
+      borderColor: ColorAlpha(Colors[2], 0.7),
       borderWidth: 2,
       hoverBackgroundColor: ColorAlpha(Colors[2], 0.5),
       hoverBorderColor: ColorAlpha(Colors[2], 0.5),
       data: Rdom(5, -100, 100)
     }, {
       label: 'Dataset2',
-      backgroundColor: ColorAlpha(Colors[0], 0.7),
-      borderColor: ColorAlpha(Colors[0], 0.3),
+      backgroundColor: ColorAlpha(Colors[0], 0.3),
+      borderColor: ColorAlpha(Colors[0], 0.7),
       borderWidth: 2,
       hoverBackgroundColor: ColorAlpha(Colors[0], 0.5),
       hoverBorderColor: ColorAlpha(Colors[0], 0.5),

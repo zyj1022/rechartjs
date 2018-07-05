@@ -12,11 +12,11 @@ export const doughnutData = {
       {
         label: "Doughnut",
         backgroundColor: [
-          ColorAlpha(Colors[0], 0.4),
-          ColorAlpha(Colors[1], 0.4),
-          ColorAlpha(Colors[3], 0.4),
-          ColorAlpha(Colors[5], 0.4),
-          ColorAlpha(Colors[2], 0.4),
+          ColorAlpha(Colors[0], 0.6),
+          ColorAlpha(Colors[1], 0.6),
+          ColorAlpha(Colors[3], 0.6),
+          ColorAlpha(Colors[5], 0.6),
+          ColorAlpha(Colors[2], 0.6),
         ],
         borderColor: ColorAlpha(white, 0),
         borderWidth: 3,
